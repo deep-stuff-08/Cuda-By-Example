@@ -47,9 +47,15 @@ int main(int argv, char** argc) {
 	dim3 grids(DIM/16, DIM/16);
 	dim3 threads(16, 16);
 
-	if(argv == 1) {
+	printf("Use Thread Syncing?(y/n):");
+	char c = getchar();
+
+	if(c == 'y') {
 		kernelSync<<<grids, threads>>>(dev_bitmap);
+	} else if(c == 'n') {
+		kernel<<<grids, threads>>>(dev_bitmap);
 	} else {
+		printf("Defaulting to 'n'\n");
 		kernel<<<grids, threads>>>(dev_bitmap);
 	}
 	HANDLE_ERROR(cudaMemcpy(bitmap.get_ptr(), dev_bitmap, bitmap.image_size(), cudaMemcpyDeviceToHost));
