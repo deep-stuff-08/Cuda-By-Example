@@ -55,7 +55,7 @@ __global__ void kernel(unsigned char* ptr) {
 }
 
 int main(void) {
-	srand(time(0));
+	srand(0);
 	cudaEvent_t start, stop;
 	
 	HANDLE_ERROR(cudaEventCreate(&start));
