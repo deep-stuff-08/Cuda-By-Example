@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/deep-stuff-08/Cuda-By-Example?style=plastic) ![GitHub](https://img.shields.io/badge/platforms-linux-success?style=plastic) ![GitHub](https://img.shields.io/badge/dependency-CUDA|GLUT-orange?style=plastic)
+
 # Cuda-By-Example
 
 ## Requirements
