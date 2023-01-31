@@ -21,3 +21,8 @@ $ run.sh 1
 ## Limitations
 
 Currently the codes are only tested on Linux but should work on Mac and Windows with manual compilation. Working on testing them on both platforms.
+
+## Outputs
+Videos of some of the graphical outputs can be found on the link below:
+
+[Youtube](https://youtube.com/playlist?list=PLN1wJm489qPKfOnd-vkOz5yYW9RSGzXgn)
