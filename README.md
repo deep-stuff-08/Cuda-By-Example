@@ -12,9 +12,9 @@ run the bash script run.sh and pass the program number you want to run as a comm
 
 Example to run 1_DeviceQuery.cu :
 
-'''bash
+```bash
 $ run.sh 1
-'''
+```
 
 ## Limitations
 
