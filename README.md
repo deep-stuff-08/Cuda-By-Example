@@ -10,7 +10,7 @@ To run the code you must have a working installation of:
 
 ## Run Instructions
 
-run the bash script run.sh and pass the program number you want to run as a command line argument
+Run the bash script 'run.sh' and pass the program number you want to run as a command line argument
 
 Example to run 1_DeviceQuery.cu :
 
